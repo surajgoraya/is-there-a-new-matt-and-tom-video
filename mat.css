@@ -1,0 +1,17 @@
+.container{
+  min-width: 80% !important;
+}
+.breadcrumb{
+  background-color: #1b1b1b;
+}
+
+@media (min-width: 1024px){
+  
+ 	.emb{
+ 		max-width: 560px !important;
+ 		max-height: 315px !important;
+ 		min-height: 315px !important;
+ 		min-width: 560px !important;
+ 	}
+  
+}
