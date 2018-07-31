@@ -5,9 +5,9 @@ Are you missing your weekly dose of ramble? This (absolutely useless) website ch
 I was bored out of my mind and thought I'd give a shot at trying to mess with the YouTube API and Javascript to create a little web thing.
 
 # Tech
-* HTML5
-* CSS
-* Javascript, with JQuery
+* HTML5 - with Bootstrap
+* CSS3
+* Javascript - with JQuery
 
 # Is it live somewhere?
 Yep, [over at my website under the projects page!](http://surajgoraya.ca/projects/mattandtom)
