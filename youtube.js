@@ -1,4 +1,4 @@
-const API_KEY = "{ENTER_API_KEY_HERE}";
+const API_KEY = "{API_KEY_HERE}";
 const MAT_ID = "UCRUULstZRWS1lDvJBzHnkXA";
 
 var REQ_URL = "https://www.googleapis.com/youtube/v3/search?part=snippet&channelId="+MAT_ID+"&maxResults=25&order=date&type=video&key="+API_KEY;
@@ -24,9 +24,10 @@ function checkVideos(items, publishedAt, videoId) {
 	var when = moment(splitTime[0], "YYYY-MM-DD").fromNow();
 	
 	if(when.includes("days ago") || when.includes("day ago")){
-		for (var i = 1; i < 7; i++) {
-			if(when.includes(i+ " days ago"))
+		for (var i = 1; i < 8; i++) {
+			if(when == i + " days ago")
 			{
+				console.log(i+ " days ago")
 				//new 
 				newVideo = true;
 			}
