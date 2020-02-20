@@ -1,7 +1,7 @@
 const API_KEY = "{API_KEY_HERE}";
-const MAT_ID = "UCRUULstZRWS1lDvJBzHnkXA";
+const CHANNEL_ID = "UCRUULstZRWS1lDvJBzHnkXA";
 
-var REQ_URL = "https://www.googleapis.com/youtube/v3/search?part=snippet&channelId="+MAT_ID+"&maxResults=25&order=date&type=video&key="+API_KEY;
+var REQ_URL = "https://www.googleapis.com/youtube/v3/search?part=snippet&channelId="+CHANNEL_ID+"&maxResults=25&order=date&type=video&key="+API_KEY;
 
 //Called whenever the page is loaded and ready to go.
 $(document).ready(function(){
