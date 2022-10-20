@@ -10,4 +10,6 @@ I was bored out of my mind and thought I'd give a shot at trying to mess with th
 * Javascript - with JQuery
 
 # Is it live somewhere?
-Yep, [over at my website under the projects page!](http://surajgoraya.ca/projects/mattandtom)
+~Yep, [over at my website under the projects page!](http://surajgoraya.ca/projects/mattandtom)~
+
+Nope :(, this project has been archived and is no longer on my site. See: [surajgoraya.ca/archived](https://surajgoraya.ca/archived) for more details, if needed.
